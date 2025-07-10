@@ -46,7 +46,15 @@
             id="f4ea928b-27ef-4867-8ae2-482012aef8fa" name="Root Operational Activity"/>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg"
-          id="b379b65e-4b00-450e-91c5-05ae3ab72031" name="Operational Capabilities"/>
+          id="b379b65e-4b00-450e-91c5-05ae3ab72031" name="Operational Capabilities">
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="d75df6d0-2104-4f42-896f-455a650e2841" name="Requirement Managment">
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="b144edc8-d800-4993-a95e-a4aa204b7a8c" involved="#0b4f54aa-913b-4ad3-b990-92da95cec318"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="2845a727-0d7b-4113-999f-acfeae93802f" involved="#3049e3ca-b6de-42fd-9475-350e81e83e2d"/>
+        </ownedOperationalCapabilities>
+      </ownedAbstractCapabilityPkg>
       <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
           id="bd456ea3-bb80-4f19-b2d7-c3eca0a7faa9" name="Interfaces"/>
       <ownedDataPkg xsi:type="org.polarsys.capella.core.data.information:DataPkg"
@@ -54,7 +62,19 @@
       <ownedRolePkg xsi:type="org.polarsys.capella.core.data.oa:RolePkg" id="fa80e106-9a98-438b-8953-a15bf4b45925"
           name="Roles"/>
       <ownedEntityPkg xsi:type="org.polarsys.capella.core.data.oa:EntityPkg" id="6a9834a6-3c8d-4bcf-a190-79074e360a48"
-          name="Operational Entities"/>
+          name="Operational Entities">
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="6552297e-f42e-4e41-bea4-c160461d7c07"
+            name="Teamcenter Requirements" abstractType="#0b4f54aa-913b-4ad3-b990-92da95cec318"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="6fce6aff-58f9-4fba-a82c-e4c876ea3d1d"
+            name="System Modeler for SysML V2" abstractType="#3049e3ca-b6de-42fd-9475-350e81e83e2d"/>
+        <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.oa:CommunicationMean"
+            id="c261e8bf-2e43-49f1-9414-9eb338b4776a" name="Teamcenter Integration"
+            source="#0b4f54aa-913b-4ad3-b990-92da95cec318" target="#3049e3ca-b6de-42fd-9475-350e81e83e2d"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="0b4f54aa-913b-4ad3-b990-92da95cec318"
+            name="Teamcenter Requirements"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="3049e3ca-b6de-42fd-9475-350e81e83e2d"
+            name="System Modeler for SysML V2"/>
+      </ownedEntityPkg>
     </ownedArchitectures>
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.ctx:SystemAnalysis"
         id="af9c42a9-e4aa-4d41-b4e0-c6b033476d3c" name="System Analysis">
