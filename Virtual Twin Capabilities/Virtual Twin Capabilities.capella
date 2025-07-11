@@ -158,6 +158,8 @@
               id="bec70f21-27c6-49ea-95b8-067f2d7ac51d" involved="#72f92a10-4b45-4f07-8ee1-b6c08de84f44"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="07ce6fe9-13e0-497e-9c44-9ec2e1e0dd23" involved="#5afebdd9-1179-42c0-816f-2ae0ce505e67"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="ee98c2d5-d231-4abc-8b8b-d03018ba13dc" involved="#4afa270e-91ad-467c-980d-180bcba6336d"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="952ec056-93dd-4ff2-8a1f-a6f83fd1307a" name="System Architecture">
@@ -177,6 +179,8 @@
               id="cfbbe915-12e9-449b-a2b7-2468fc99389f" involved="#ecae3ac7-07ed-4c9f-918a-542a1b6c7c64"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="86ef00ba-7606-4f87-b789-20895e2d6d47" involved="#12c6d252-a9ea-4a59-a661-6972fa558d1f"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="918026e9-0eaf-4155-ad8b-b183237d26a0" involved="#4afa270e-91ad-467c-980d-180bcba6336d"/>
         </ownedOperationalCapabilities>
       </ownedAbstractCapabilityPkg>
       <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
@@ -205,6 +209,8 @@
             name="Rhapsody" abstractType="#ecae3ac7-07ed-4c9f-918a-542a1b6c7c64"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="3c768e97-05c8-4552-b1fb-b937ceb8ff68"
             name="System Architecture Explore" abstractType="#12c6d252-a9ea-4a59-a661-6972fa558d1f"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="4c13781a-5e56-42c3-a585-c670e8a5be6e"
+            name="Polarion" abstractType="#4afa270e-91ad-467c-980d-180bcba6336d"/>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.oa:CommunicationMean"
             id="c261e8bf-2e43-49f1-9414-9eb338b4776a" name="Teamcenter Integration (planned)"
             source="#0b4f54aa-913b-4ad3-b990-92da95cec318" target="#3049e3ca-b6de-42fd-9475-350e81e83e2d">
@@ -236,6 +242,12 @@
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.oa:CommunicationMean"
             id="9bb424b4-b70c-4d79-aa15-9bae2171efba" name="Teamcenter Integration"
             source="#0b4f54aa-913b-4ad3-b990-92da95cec318" target="#5afebdd9-1179-42c0-816f-2ae0ce505e67"/>
+        <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.oa:CommunicationMean"
+            id="717287be-22e4-47bd-9af0-07ca9ef0e277" name="Publication for Capella (OBEO)"
+            source="#4afa270e-91ad-467c-980d-180bcba6336d" target="#b13ea346-e0cb-4d86-86d4-dd3accadf443"/>
+        <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.oa:CommunicationMean"
+            id="55bff653-c3b4-4d50-ae90-a64e1f05003a" name="Integration ?" source="#4afa270e-91ad-467c-980d-180bcba6336d"
+            target="#ecae3ac7-07ed-4c9f-918a-542a1b6c7c64"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="0b4f54aa-913b-4ad3-b990-92da95cec318"
             name="Teamcenter Requirements" description="&lt;p>Siemens tool for Requirement Management&lt;/p>&#xA;">
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
@@ -296,6 +308,8 @@
             name="Rhapsody"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="12c6d252-a9ea-4a59-a661-6972fa558d1f"
             name="System Architecture Explore"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="4afa270e-91ad-467c-980d-180bcba6336d"
+            name="Polarion"/>
       </ownedEntityPkg>
     </ownedArchitectures>
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.ctx:SystemAnalysis"
