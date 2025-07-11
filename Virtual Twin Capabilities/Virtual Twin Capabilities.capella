@@ -150,6 +150,14 @@
               id="2845a727-0d7b-4113-999f-acfeae93802f" involved="#3049e3ca-b6de-42fd-9475-350e81e83e2d"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="c3011aa5-2662-4149-b901-396026312753" involved="#8ee57fb4-ee93-4f4d-9fc3-3709abb838b1"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="6260c605-8e6f-46ba-8940-f9e8f210d9e5" involved="#12c6d252-a9ea-4a59-a661-6972fa558d1f"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="def91afc-62cb-4b57-b06d-5c9cac580584" involved="#ecae3ac7-07ed-4c9f-918a-542a1b6c7c64"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="bec70f21-27c6-49ea-95b8-067f2d7ac51d" involved="#72f92a10-4b45-4f07-8ee1-b6c08de84f44"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="07ce6fe9-13e0-497e-9c44-9ec2e1e0dd23" involved="#5afebdd9-1179-42c0-816f-2ae0ce505e67"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="952ec056-93dd-4ff2-8a1f-a6f83fd1307a" name="System Architecture">
@@ -161,6 +169,14 @@
               id="1577a9cf-630a-49cf-a4fe-7e3d69bf95bc" involved="#b13ea346-e0cb-4d86-86d4-dd3accadf443"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="8373ae6a-084f-4899-a9ad-88ac675d52b4" involved="#0b4f54aa-913b-4ad3-b990-92da95cec318"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="e56a6d6c-e7ea-4cd5-8bc3-9c5bae01569a" involved="#5afebdd9-1179-42c0-816f-2ae0ce505e67"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="9f2e4d4a-18d6-4acc-b486-142258903eea" involved="#72f92a10-4b45-4f07-8ee1-b6c08de84f44"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="cfbbe915-12e9-449b-a2b7-2468fc99389f" involved="#ecae3ac7-07ed-4c9f-918a-542a1b6c7c64"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="86ef00ba-7606-4f87-b789-20895e2d6d47" involved="#12c6d252-a9ea-4a59-a661-6972fa558d1f"/>
         </ownedOperationalCapabilities>
       </ownedAbstractCapabilityPkg>
       <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
@@ -181,10 +197,16 @@
             name="System Architect" abstractType="#8afbf7d3-8799-4cb9-8064-6c443d476cc1"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="47c503af-8803-4775-8aa0-a327ea7dadda"
             name="SMW" abstractType="#b13ea346-e0cb-4d86-86d4-dd3accadf443"/>
-        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="f0f96413-4347-401b-abc0-9bd7a78bb916"
-            name="System Modeling Workbench" abstractType="#8f2664ab-95dd-4014-a0a7-5a66b5359485"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="a6bf0416-0263-403e-9d9d-16e2cd611401"
+            name="CATIA MAGIC (V1) (DSA)" abstractType="#5afebdd9-1179-42c0-816f-2ae0ce505e67"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="e4115a7d-6d76-46c7-931e-55c90160af96"
+            name="CATIA MAGIC (V2) (DSA)" abstractType="#72f92a10-4b45-4f07-8ee1-b6c08de84f44"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="48bd1b6b-1517-44bf-99b1-d8b1bc15fb4c"
+            name="Rhapsody" abstractType="#ecae3ac7-07ed-4c9f-918a-542a1b6c7c64"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="3c768e97-05c8-4552-b1fb-b937ceb8ff68"
+            name="System Architecture Explore" abstractType="#12c6d252-a9ea-4a59-a661-6972fa558d1f"/>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.oa:CommunicationMean"
-            id="c261e8bf-2e43-49f1-9414-9eb338b4776a" name="Teamcenter Integration"
+            id="c261e8bf-2e43-49f1-9414-9eb338b4776a" name="Teamcenter Integration (planned)"
             source="#0b4f54aa-913b-4ad3-b990-92da95cec318" target="#3049e3ca-b6de-42fd-9475-350e81e83e2d">
           <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
               id="76a005a5-b72f-4cf6-8326-de8943d9c112" targetElement="#ad99d69d-0af8-4b9a-a5bc-2238b6512550"
@@ -194,18 +216,24 @@
               sourceElement="#c261e8bf-2e43-49f1-9414-9eb338b4776a"/>
         </ownedComponentExchanges>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.oa:CommunicationMean"
-            id="ff25a756-0a19-4d8c-aa60-ea8cfec43af2" name="Teamcenter Integration"
-            source="#0b4f54aa-913b-4ad3-b990-92da95cec318" target="#b13ea346-e0cb-4d86-86d4-dd3accadf443"/>
-        <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.oa:CommunicationMean"
             id="f6a61178-b388-479c-8eb6-c7c2544aec20" name="Teancenter Integration"
-            source="#0b4f54aa-913b-4ad3-b990-92da95cec318" target="#8f2664ab-95dd-4014-a0a7-5a66b5359485">
+            source="#0b4f54aa-913b-4ad3-b990-92da95cec318" target="#b13ea346-e0cb-4d86-86d4-dd3accadf443">
           <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
-              id="4be64fed-a4d8-4c8a-94ba-f6d989ef50b4" targetElement="#1504b6a1-9c97-441e-82b3-afc5132b3e2f"
+              id="5ef73a3a-1335-474a-8840-49be5451a7b2" targetElement="#1504b6a1-9c97-441e-82b3-afc5132b3e2f"
               sourceElement="#f6a61178-b388-479c-8eb6-c7c2544aec20"/>
           <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
-              id="5dcf689a-cdc5-429e-b819-c1a7697a6a4d" targetElement="#4d632816-6ebb-4195-8a07-cbe7aa41c222"
+              id="c259595e-91dc-4b81-84a0-d8f7dad1f970" targetElement="#4d632816-6ebb-4195-8a07-cbe7aa41c222"
               sourceElement="#f6a61178-b388-479c-8eb6-c7c2544aec20"/>
         </ownedComponentExchanges>
+        <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.oa:CommunicationMean"
+            id="9374b3a0-71ff-48b9-9329-22c1ff0d417a" name="Teamcenter Integration (?)"
+            source="#0b4f54aa-913b-4ad3-b990-92da95cec318" target="#12c6d252-a9ea-4a59-a661-6972fa558d1f"/>
+        <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.oa:CommunicationMean"
+            id="bb801180-342e-4c76-a8f7-68f69497a5fe" name="Teamcenter Integration"
+            source="#0b4f54aa-913b-4ad3-b990-92da95cec318" target="#ecae3ac7-07ed-4c9f-918a-542a1b6c7c64"/>
+        <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.oa:CommunicationMean"
+            id="9bb424b4-b70c-4d79-aa15-9bae2171efba" name="Teamcenter Integration"
+            source="#0b4f54aa-913b-4ad3-b990-92da95cec318" target="#5afebdd9-1179-42c0-816f-2ae0ce505e67"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="0b4f54aa-913b-4ad3-b990-92da95cec318"
             name="Teamcenter Requirements" description="&lt;p>Siemens tool for Requirement Management&lt;/p>&#xA;">
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
@@ -245,19 +273,25 @@
               sourceElement="#8afbf7d3-8799-4cb9-8064-6c443d476cc1"/>
         </ownedEntities>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="b13ea346-e0cb-4d86-86d4-dd3accadf443"
-            name="SMW" description="&lt;p>Siemens System Modeling Workbench tool for System Modeling based on open source tool Capella.&lt;/p>&#xA;"/>
-        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="8f2664ab-95dd-4014-a0a7-5a66b5359485"
-            name="System Modeling Workbench">
+            name="SMW" description="&lt;p>Siemens System Modeling Workbench tool for System Modeling based on open source tool Capella.&lt;/p>&#xA;">
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="9f02ff31-9885-4bf3-a408-338e48de3356" targetElement="#fc27e267-1544-4c8b-89d2-9ff1bdaab5b7"
-              sourceElement="#8f2664ab-95dd-4014-a0a7-5a66b5359485"/>
+              sourceElement="#b13ea346-e0cb-4d86-86d4-dd3accadf443"/>
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="95c2a97a-353a-49e3-845a-585217025266" targetElement="#1d6b89b1-6bb7-485b-8440-8b4a6c22cb12"
-              sourceElement="#8f2664ab-95dd-4014-a0a7-5a66b5359485"/>
+              sourceElement="#b13ea346-e0cb-4d86-86d4-dd3accadf443"/>
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="1a219fc0-5d79-405c-adb7-0a151cfa0c90" targetElement="#76c6ddc3-ff28-4c11-bc74-bbea76372722"
-              sourceElement="#8f2664ab-95dd-4014-a0a7-5a66b5359485"/>
+              sourceElement="#b13ea346-e0cb-4d86-86d4-dd3accadf443"/>
         </ownedEntities>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="5afebdd9-1179-42c0-816f-2ae0ce505e67"
+            name="CATIA MAGIC (V1) (DSA)"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="72f92a10-4b45-4f07-8ee1-b6c08de84f44"
+            name="CATIA MAGIC (V2) (DSA)"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="ecae3ac7-07ed-4c9f-918a-542a1b6c7c64"
+            name="Rhapsody"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="12c6d252-a9ea-4a59-a661-6972fa558d1f"
+            name="System Architecture Explore"/>
       </ownedEntityPkg>
     </ownedArchitectures>
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.ctx:SystemAnalysis"
