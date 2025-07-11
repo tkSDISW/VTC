@@ -218,6 +218,8 @@
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.oa:CommunicationMean"
             id="f6a61178-b388-479c-8eb6-c7c2544aec20" name="Teancenter Integration"
             source="#0b4f54aa-913b-4ad3-b990-92da95cec318" target="#b13ea346-e0cb-4d86-86d4-dd3accadf443">
+          <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+              id="890e653d-14b5-4299-a1e8-b688fe3a35e5" name="Notes" value="Capable of CSID with Git and Simcenter Studio"/>
           <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
               id="5ef73a3a-1335-474a-8840-49be5451a7b2" targetElement="#1504b6a1-9c97-441e-82b3-afc5132b3e2f"
               sourceElement="#f6a61178-b388-479c-8eb6-c7c2544aec20"/>
@@ -244,7 +246,8 @@
               sourceElement="#0b4f54aa-913b-4ad3-b990-92da95cec318"/>
         </ownedEntities>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="3049e3ca-b6de-42fd-9475-350e81e83e2d"
-            name="System Modeler for SysML V2" description="&lt;p>Future Siemens tool that models architecture in SysML V2.&lt;/p>&#xA;">
+            name="System Modeler for SysML V2" description="&lt;p>Future Siemens tool that models architecture in SysML V2.&lt;/p>&#xA;"
+            appliedPropertyValues="#890e653d-14b5-4299-a1e8-b688fe3a35e5">
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="c35486ee-fb43-4b2f-9b84-6240d7e34b5d" targetElement="#094f9f98-ea6a-41cb-8024-d74f4da12a14"
               sourceElement="#3049e3ca-b6de-42fd-9475-350e81e83e2d"/>
@@ -273,7 +276,8 @@
               sourceElement="#8afbf7d3-8799-4cb9-8064-6c443d476cc1"/>
         </ownedEntities>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="b13ea346-e0cb-4d86-86d4-dd3accadf443"
-            name="SMW" description="&lt;p>Siemens System Modeling Workbench tool for System Modeling based on open source tool Capella.&lt;/p>&#xA;">
+            name="SMW" description="&lt;p>Siemens System Modeling Workbench tool for System Modeling based on open source tool Capella.&lt;/p>&#xA;"
+            appliedPropertyValues="#890e653d-14b5-4299-a1e8-b688fe3a35e5">
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="9f02ff31-9885-4bf3-a408-338e48de3356" targetElement="#fc27e267-1544-4c8b-89d2-9ff1bdaab5b7"
               sourceElement="#b13ea346-e0cb-4d86-86d4-dd3accadf443"/>
@@ -287,7 +291,7 @@
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="5afebdd9-1179-42c0-816f-2ae0ce505e67"
             name="CATIA MAGIC (V1) (DSA)"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="72f92a10-4b45-4f07-8ee1-b6c08de84f44"
-            name="CATIA MAGIC (V2) (DSA)"/>
+            name="CATIA MAGIC (V2) (DSA)" appliedPropertyValues="#890e653d-14b5-4299-a1e8-b688fe3a35e5"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="ecae3ac7-07ed-4c9f-918a-542a1b6c7c64"
             name="Rhapsody"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="12c6d252-a9ea-4a59-a661-6972fa558d1f"
