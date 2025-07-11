@@ -159,6 +159,8 @@
               id="42b938c1-edcc-4c5c-9669-5eebc919006d" involved="#8afbf7d3-8799-4cb9-8064-6c443d476cc1"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="1577a9cf-630a-49cf-a4fe-7e3d69bf95bc" involved="#b13ea346-e0cb-4d86-86d4-dd3accadf443"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="8373ae6a-084f-4899-a9ad-88ac675d52b4" involved="#0b4f54aa-913b-4ad3-b990-92da95cec318"/>
         </ownedOperationalCapabilities>
       </ownedAbstractCapabilityPkg>
       <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
